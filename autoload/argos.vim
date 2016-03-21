@@ -1,4 +1,4 @@
-function! argos#insert_header()
+function! argos#initialize()
   set paste
   normal! gg
   call s:template()
